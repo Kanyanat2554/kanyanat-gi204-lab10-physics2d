@@ -3,6 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float Speed; //public variable uses Pascal casing
+
+    Vector2 moveInput; //for walk with addforce
+
     float move; //private variable
 
     public float JumpForce;
@@ -19,11 +22,14 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        move = Input.GetAxis("Horizontal"); //x - axis
+        //walk with addforce
+        moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        rb2d.AddForce(moveInput * Speed);
 
         //use rigidbody2d to move left and right (x-axis)
-        rb2d.linearVelocity = new Vector2(move * Speed, rb2d.linearVelocity.y);
-        
+        //move = Input.GetAxis("Horizontal"); //x - axis
+        //rb2d.linearVelocity = new Vector2(move * Speed, rb2d.linearVelocity.y);
+
         //jump
         if (Input.GetButtonDown("Jump") && !IsJumping)
         {
