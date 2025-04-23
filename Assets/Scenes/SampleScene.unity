@@ -2702,7 +2702,7 @@ Transform:
   m_GameObject: {fileID: 1063575879}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.24, y: -0.08000004, z: 0}
+  m_LocalPosition: {x: -12.26, y: 1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3149,7 +3149,7 @@ GameObject:
   - component: {fileID: 1197849653}
   m_Layer: 0
   m_Name: Spike
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5616,7 @@ Transform:
   m_GameObject: {fileID: 1881344628}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: -1.49, z: 0}
+  m_LocalPosition: {x: -0.15, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5638,7 +5638,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f64d8b5573798454192f5f65e4bbd145, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
