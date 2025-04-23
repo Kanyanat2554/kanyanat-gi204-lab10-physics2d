@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 5854828}
   m_Layer: 0
   m_Name: Top Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 98137316}
   m_Layer: 0
   m_Name: Top (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -824,7 +824,7 @@ GameObject:
   - component: {fileID: 214421550}
   m_Layer: 0
   m_Name: Top Right
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 273275264}
   m_Layer: 0
   m_Name: Slope Under Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 361138980}
   m_Layer: 0
   m_Name: Top (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,7 +1392,7 @@ GameObject:
   - component: {fileID: 518031376}
   m_Layer: 0
   m_Name: Top (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1792,6 +1792,7 @@ GameObject:
   - component: {fileID: 752443446}
   - component: {fileID: 752443449}
   - component: {fileID: 752443450}
+  - component: {fileID: 752443451}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1978,6 +1979,21 @@ PolygonCollider2D:
       - {x: 0.38375425, y: 0.3105297}
       - {x: 0.18359327, y: 0.50725454}
   m_UseDelaunayMesh: 0
+--- !u!114 &752443451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752443445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1275a3e455a045d4bb4fe5f9a07e11da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 5
+  JumpForce: 550
+  IsJumping: 0
 --- !u!1 &810539424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2094,7 @@ GameObject:
   - component: {fileID: 828249630}
   m_Layer: 0
   m_Name: Top Left (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2957,7 +2973,7 @@ GameObject:
   - component: {fileID: 1171182409}
   - component: {fileID: 1171182408}
   m_Layer: 0
-  m_Name: Sky_Anime_15_Day_a_0
+  m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3133,7 +3149,7 @@ GameObject:
   - component: {fileID: 1197849653}
   m_Layer: 0
   m_Name: Spike
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3940,7 +3956,7 @@ GameObject:
   - component: {fileID: 1370591022}
   m_Layer: 0
   m_Name: Slope Right
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4074,7 +4090,7 @@ GameObject:
   - component: {fileID: 1447056164}
   m_Layer: 0
   m_Name: Slope Left
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4382,7 +4398,7 @@ GameObject:
   - component: {fileID: 1585039852}
   m_Layer: 0
   m_Name: Top (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4757,7 +4773,7 @@ GameObject:
   - component: {fileID: 1652774337}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4891,7 +4907,7 @@ GameObject:
   - component: {fileID: 1699973326}
   m_Layer: 0
   m_Name: Top (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5025,7 +5041,7 @@ GameObject:
   - component: {fileID: 1786087246}
   m_Layer: 0
   m_Name: Top (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5715,7 +5731,7 @@ GameObject:
   - component: {fileID: 1892669890}
   m_Layer: 0
   m_Name: Slope Under Right
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6284,7 +6300,7 @@ GameObject:
   - component: {fileID: 2098529183}
   m_Layer: 0
   m_Name: Top Right (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
